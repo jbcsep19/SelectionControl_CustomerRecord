@@ -1,4 +1,6 @@
+Pseudocode
 1) Process customer record 
+<pre>
 Module Main
 	Declare String name
 	Declare Real purchase_amt
@@ -32,3 +34,4 @@ Module Main
 	Display "The sales tax is ", sales_tax * 100, " %."
 	Display "The total amount due is ", total
 End Main
+</pre>
