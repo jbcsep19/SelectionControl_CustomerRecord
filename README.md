@@ -1,5 +1,5 @@
-Pseudocode
-1) Process customer record 
+Pseudocode - Process customer record 
+
 <pre>
 Module Main
 	Declare String name
