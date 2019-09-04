@@ -9,7 +9,7 @@ public class Main {
         String name;
         double purchase_amt;
         int tax_code;
-        double sales_tax;
+        double sales_tax = -1;
         double total_amt;
 
         // get inputs
@@ -23,15 +23,14 @@ public class Main {
 
         // calculate sales tax depending on tax code
         if (tax_code == 0) {
-            sales_tax = 0.0;
+            sales_tax = 0;
         } else if (tax_code == 1) {
             sales_tax = 0.03;
         } else if (tax_code == 2) {
             sales_tax = 0.05;
         } else if (tax_code == 3) {
             sales_tax = 0.07;
-        } else
-            sales_tax = -1;
+        }
 
         // calculate total_amt amount due
         total_amt = purchase_amt * (1 + sales_tax);
